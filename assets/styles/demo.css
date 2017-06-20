@@ -65,7 +65,7 @@ body{
 }
 a{
 	color: #fff;
-	text-decoration: none;
+	text-decoration: none; !important
 }
 .container{
 	position: relative;
