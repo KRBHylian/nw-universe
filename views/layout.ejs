@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+   <link rel="shortcut icon" type="image/ico" href="images/favicon.gif" />
+
+   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+
+    <title><%=typeof title == 'undefined' ? '» Next Wave Universe' : title%></title>
+    <!-- Si le "type of title" == undefined alors il sera égal à 'New Sails App' sinon il sera égal à la valeur de title-->
+
+    <!-- Viewport mobile tag for sensible mobile support -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+    <!--
+        Stylesheets and Preprocessors
+        ==============================
+
+        You can always bring in CSS files manually with `<link>` tags, or asynchronously
+        using a solution like AMD (RequireJS).  Or, if you like, you can take advantage
+        of Sails' conventional asset pipeline (boilerplate Gruntfile).
+
+        By default, stylesheets from your `assets/styles` folder are included
+        here automatically (between STYLES and STYLES END). Both CSS (.css) and LESS (.less)
+        are supported. In production, your styles will be minified and concatenated into
+        a single file.
+
+        To customize any part of the built-in behavior, just edit `tasks/pipeline.js`.
+        For example, here are a few things you could do:
+
+            + Change the order of your CSS files
+            + Import stylesheets from other directories
+            + Use a different or additional preprocessor, like SASS, SCSS or Stylus
+    -->
+
+    <!--STYLES-->
+    <link rel="stylesheet" href="/styles/base.css">
+    <link rel="stylesheet" href="/styles/demo.css">
+    <link rel="stylesheet" href="/styles/importer.css">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/style2.css">
+    <!--STYLES END-->
+  </head>
+
+<div class="header">
+      
+        <div class="header_logo">
+          <a href="/"><img src="images/nextwaveuniversepetit.png" alt="Next Wave Universe"></a></div>
+        </div>
+
+        <div class="texte_inscription">
+          <a href="register"><span><p>Cliquez pour s'inscrire et rejoindre l'aventure <span style="color: white;">!</span> </p></span></a>
+        </div>
+
+        <div class="help_menu">
+            <ul id="menu-accordeon">
+                 <li span style="display: block; color: #fff; padding-top: 5px; text-transform: uppercase; font-family: Soopafresh; font-size: 18px; text-align: center; font-weight: bolder;">
+                 ▼ A L'AIDE !
+                    <ul>
+                       <li><a href="http://www.nextwave-rpg.com/f1-regles" target="_blank">► Reglement</a></li>
+                       <li><a href="http://www.nextwave-rpg.com/f2-legendes" target="_blank">► F.A.Q.</a></li>
+                       <li><a href="http://www.nextwave-rpg.com/f3-fiches-personnage" target="_blank">► Poser une Question</a></li>
+                       <li><a href="http://www.nextwave-rpg.com/f477-gestion-rp" target="_blank">► Signaler un Bug</a></li>
+                    </ul>
+                 </li>
+              </ul>
+        </div>
+
+
+
+  <body>
+    <%- body %> <!-- inclus actuellement le homepage.ejs -->
+
+
+
+    <!--
+        Client-side Templates
+        ========================
+
+        HTML templates are important prerequisites of modern, rich client applications.
+        To work their magic, frameworks like Backbone, Angular, Ember, and Knockout require
+        that you load these templates client-side.
+
+        By default, your Gruntfile is configured to automatically load and precompile
+        client-side JST templates in your `assets/templates` folder, then
+        include them here automatically (between TEMPLATES and TEMPLATES END).
+
+        To customize this behavior to fit your needs, just edit `tasks/pipeline.js`.
+        For example, here are a few things you could do:
+
+            + Import templates from other directories
+            + Use a different template engine (handlebars, jade, dust, etc.)
+            + Internationalize your client-side templates using a server-side
+              stringfile before they're served.
+    -->
+
+    <!--TEMPLATES-->
+    
+    <!--TEMPLATES END-->
+
+
+    <!--
+
+      Client-side Javascript
+      ========================
+
+      You can always bring in JS files manually with `script` tags, or asynchronously
+      on the client using a solution like AMD (RequireJS).  Or, if you like, you can
+      take advantage of Sails' conventional asset pipeline (boilerplate Gruntfile).
+
+      By default, files in your `assets/js` folder are included here
+      automatically (between SCRIPTS and SCRIPTS END).  Both JavaScript (.js) and
+      CoffeeScript (.coffee) are supported. In production, your scripts will be minified
+      and concatenated into a single file.
+
+      To customize any part of the built-in behavior, just edit `tasks/pipeline.js`.
+      For example, here are a few things you could do:
+
+          + Change the order of your scripts
+          + Import scripts from other directories
+          + Use a different preprocessor, like TypeScript
+
+    -->
+
+    <!--SCRIPTS-->
+    <script src="/js/dependencies/sails.io.js"></script>
+    <!--SCRIPTS END-->
+
+<img id="rayons" src="images/rayons.png">
+                
+     <div id="nuage_blocbody">
+                        <div id="nuagebody">
+                        <img src="http://image.noelshack.com/fichiers/2016/34/1472292898-nuages.png">
+                        </div>
+                        </div>
+
+
+
+  </body>
+  
+  <div class="footer">
+
+        <div class="nextwavelogo"><a href="nextwave-universe.com/"><img src="images/nextwaveuniversepetit.png" alt="Next Wave Universe"></a></div>
+
+        <div class="resume"><b>Next Wave Universe</b> est un site de <span style="color:#4dbfdf;"><b>jeu sur navigateur</b></span> vous permettant de vivre une aventure unique à travers de nombreux mondes. Jouez les épisodes, défendez votre territoire, améliorez votre personnage et intéragissez avec les autres joueurs.<br/><br/>
+
+        À terme, vous pourrez même incarner votre personnage sur notre forum : <span style="color:#d4b400;"><b>Next Wave RPG</b></span> !
+        </div>
+
+        <div class="communaute"><h2>Communauté</h2>
+
+          <ul style="list-style-type:none;">
+
+            <li><a href="#">> Forum</a></li>
+
+            <li><a href="#">> Guildes</a></li>
+
+            <li><a href="#">> Newsletter</a></li>
+
+             <li><a href="#">> Qui Sommes-Nous ?</a></li>
+
+             <li><a href="#">> Poser une Question</a></li>
+
+             <li><a href="#">> Signaler un Bug</a></li>
+
+             <li><a href="#">> Facebook</a></li>
+
+             <li><a href="#">> Twitter</a></li>
+            
+          </ul>
+
+        </div>
+
+        <div class="universe"><h2>Universe</h2>
+          <ul style="list-style-type:none;">
+
+            <li><a href="#">> Reglement</a></li>
+
+            <li><a href="/cgu">> C.G.U.</a></li>
+
+            <li><a href="#">> Staff</a></li>
+            
+          </ul>
+        </div>
+
+        <div class="twitternews">
+                     <a class="twitter-timeline" data-lang="fr" data-width="270" data-height="300" data-link-color="#2B7BB9" href="https://twitter.com/NWOfficiel" style="width:270px;height:300px;margin-left:-135px;">Tweets by NWOfficiel</a> <script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>                                                                                                                                       
+        </div>
+    
+    </div>
+
+    <div class="footerend">
+      <div class="copyright">© 2017 Next Wave Universe</span></div>
+      <div class="reseaux">
+      <span id="facebook"><a href="#"><img src="images/facebook.png" alt="facebook"></a></span>
+      <span id="twitter"><a href="#"><img src="images/twitter.png" alt="twitter"></a></span>
+      <span id="mail"><a href="mailto:nextwave.universe@gmail.com"><img src="images/mail.png" alt="mail"></a></span>
+      </div>
+    </div>
+</html>
