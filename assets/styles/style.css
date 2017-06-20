@@ -266,6 +266,10 @@ body:-webkit-any-link {
 
 }
 
+a.footer {
+  text-decoration: none !important;
+}
+
 #facebook {
      position: absolute;
     left: -4px;
