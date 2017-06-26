@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Soopafresh';
+  font-family: "Soopafresh";
   src: url('http://www.fontsaddict.com/fontface/soopafresh.ttf');
 }
 
@@ -90,7 +90,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Soopafresh';
+  font-family: "Soopafresh";
    font-size: 20px;
   font-style: normal;
   font-variant: normal;
@@ -117,7 +117,7 @@ h4 {
     /* position: relative; */
     /* float: left; */
     color: white;
-    font-family: 'Soopafresh';
+    font-family: "Soopafresh";
 }
 
 p {
@@ -449,7 +449,7 @@ position: absolute;
     list-style-type: none;
     position: absolute;
     /* margin-left: 25px; */
-    font-family: 'Soopafresh';
+    font-family: "Soopafresh";
     color: #30b3bd;
     top: -11px;
     left: 570px;
@@ -483,7 +483,7 @@ border: 2px dashed rgba(15, 76, 122, 0.8);
     color: #fff;
     padding: 7px 0;
     text-transform: uppercase;
-    font-family: Soopafresh;
+    font-family: "Soopafresh";
     font-size: 16px;
     text-align: center;
     font-weight: bolder;
@@ -848,7 +848,7 @@ td {
 }
 
 .page-main-container h3 {
-font-family: 'Soopafresh';
+font-family: "Soopafresh";
    font-size: 22px;
     letter-spacing: 10px;
     font-style: bold;
@@ -891,7 +891,6 @@ font-family: "Open Sans";
 }
 
 a.textecorps {
-  color:green !important;
    text-decoration: none !important;
 }
 

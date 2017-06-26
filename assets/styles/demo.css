@@ -8,6 +8,12 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+  font-family: "Soopafresh";
+  src: url('http://www.fontsaddict.com/fontface/soopafresh.ttf');
+}
+
 /* CSS reset */
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
 	margin:0;
@@ -65,12 +71,13 @@ body{
 }
 a{
 	color: #1da1f2;
-	text-decoration: none; !important
+	text-decoration: none !important; 
 }
 
 
 a.textecorps {
   /*color: #1879f2 !important; */
+  text-decoration: none !important; 
 }
 
 .container{

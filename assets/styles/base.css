@@ -2,6 +2,11 @@
 /* ==reset */
 /* ----------------------------- */
 
+@font-face {
+  font-family: "Soopafresh";
+  src: url('http://www.fontsaddict.com/fontface/soopafresh.ttf');
+}
+
 /* base font-size corresponds to 10px and is adapted to rem unit */
 html {
   font-size: 62.5%;
@@ -9,7 +14,7 @@ html {
 body {
   /*background-color: #fff;*/
   color: #000;
-  font-family: "Century Gothic", helvetica, arial, sans-serif;
+  /*font-family: "Century Gothic", helvetica, arial, sans-serif;*/
   font-size: 1.4em; /* equiv 14px */
   line-height: 1.5; /* adapt to your design */
 }
