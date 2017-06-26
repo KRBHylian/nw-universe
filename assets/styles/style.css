@@ -3,7 +3,7 @@
 
 body {
  background-image: url(../images/fond.jpg);
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   line-height: 1;
    font-family: "Open Sans";
   font-size: 14px;
@@ -16,6 +16,66 @@ body {
   z-index: 0;
   margin: 0;
 }
+
+a:hover,a:focus{
+     background:rgba(0,0,0,.4);
+     box-shadow:0 1px 0 rgba(255,255,255,.4);
+      border:dashed solid 2px white;
+     text-align: center;
+      font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: white;
+
+}
+
+a span{
+     position:absolute;   
+          margin-top:23px;
+     margin-left:-35px;
+      color:#ffffff;
+     background:rgba(0,0,0,.9);
+     padding:15px;
+     border-radius:3px;
+
+     box-shadow:0 0 2px rgba(0,0,0,.5);
+     transform:scale(0) rotate(-12deg);    
+     transition:all .25s;  
+     opacity:0;
+      border:dashed solid 2px white;
+      text-align: center;    
+       font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: white; 
+}
+
+a:hover span, a:focus span{
+     transform:scale(1) rotate(0);
+     opacity:1;
+          border:dashed solid 2px white;
+      text-align: center;  
+       font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: white;     
+}
+
+a.nobackground:hover {
+background-color: transparent;
+box-shadow:0 0px 0 rgba(255,255,255,.4);
+height:0px;
+}
+
 
 h1 {
   font-family: "Open Sans";
@@ -48,6 +108,16 @@ h3 {
   line-height: 15.4px;
   color:white;
 }
+
+h4 {
+      font-size: 40px;
+    /* width: auto; */
+    /* position: relative; */
+    /* float: left; */
+    color: white;
+    font-family: 'Soopafresh';
+}
+
 p {
   font-family: "Open Sans";
   font-size: 14px;
@@ -109,9 +179,10 @@ body:-webkit-any-link {
     padding-bottom: 10px;
     left: -8px;
     /* top: -8px; */
-    background-color: rgba(62, 119, 137, 0.7);
-    background: rgba(62, 119, 137, 0.7);
-    color: rgba(62, 119, 137, 0.7);
+    background-color: rgba(104, 172, 192, 0.7);
+    background: rgba(104, 172, 192, 0.7);
+    color: rgba(104, 172, 192, 0.7);
+    background-image: url(../images/fondheader.png);
     font-family: "Open Sans";
     font-size: 14px;
     font-style: normal;
@@ -389,12 +460,9 @@ position: absolute;
 }
 #menu-accordeon li {
    background-color:#729EBF; 
-   background-image:-webkit-linear-gradient(top, #3babb4 0%, #226d73 100%);
-   background-image: linear-gradient(to bottom, #3babb4 0%, #226d73 100%);
    border-radius: 6px;
    margin-bottom:2px;
    /*box-shadow: 3px 3px 3px #999;*/
-    background-image: url('http://image.noelshack.com/fichiers/2016/34/1472164824-fondbleu2.png');
 border: 2px dashed rgba(15, 76, 122, 0.8);
 }
 #menu-accordeon li li {
@@ -632,7 +700,7 @@ box-shadow: 0px 2px 14px #000000;
 }
 
 .main {
-  background: #0fadc0; 
+  background: #385757; 
   position: relative;
   display: block;
   width: 90%;
@@ -650,14 +718,14 @@ box-shadow: 0px 2px 14px #000000;
 }
 
 .bk {
- background: #1199a9;
+ background: #385757;
  position: absolute;
  width: 8%;
  top: 12px;
 }
 
 .bk.l {
- left: -10px;
+ left: -11px;
 }
 
 .bk.r {
@@ -667,7 +735,7 @@ box-shadow: 0px 2px 14px #000000;
 
 .skew {
   position: absolute;
-  background: #0c7582;
+  background: #183434;
   width: 3%;
   top: 9px;
   z-index: 5;
@@ -703,27 +771,27 @@ box-shadow: 0px 2px 14px #000000;
   top: 0px;
   border-top: 0px solid transparent;
     border-bottom: 25px solid transparent;  
-    border-right: 30px solid #1199a9; 
+    border-right: 30px solid ##385757; 
 }
 
 .arrow.bottom {
   top: 25px;
   border-top: 25px solid transparent;
     border-bottom:0px solid transparent;    
-    border-right: 30px solid #1199a9; 
+    border-right: 30px solid ##385757; 
 }
 
 .r .bottom {
   border-top: 25px solid transparent;
     border-bottom: 0px solid transparent;   
-    border-left: 30px solid #1199a9; 
+    border-left: 30px solid ##385757; 
   border-right: none;
 }
 
 .r .top {
   border-bottom: 25px solid transparent;
     border-top: 0px solid transparent;  
-    border-left: 30px solid #1199a9; 
+    border-left: 30px solid #385757; 
   border-right: none;
 }
 
@@ -803,7 +871,8 @@ font-family: "Open Sans";
     font-variant: normal;
     font-weight: 400;
     line-height: 20px;
-    color: white;
+    color: black !important;
+    text-color: black;
     margin-top: 10px;
     margin-bottom: 10px;
     width: 50%;
@@ -813,7 +882,9 @@ font-family: "Open Sans";
     -moz-box-shadow: -2px 1px 6px #000000;
     -webkit-box-shadow: 0px 1px 6px #000000;
     box-shadow: 0px 1px 6px #000000;
-    background-image: url(../images/fondbleu2.jpg);
+    background-image: url(../images/wallpapercontent2.png);
+    text-shadow: 1px 1px 1px rgba(0,0,0, 0.5);
+    border-radius: 25px;
 }
 
 .bloccentralcorps {
@@ -831,3 +902,22 @@ padding-left: 10px;
 }
 
 /* FIN CORPS CENTRAL */
+
+.avatar_staff img {
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+         float: left;
+    padding-right: 12px;
+    margin-bottom: 7px;
+    margin-top: 15px;
+}
+
+.avatar_staff img:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.avatar_staff li {
+  text-align: center;
+}

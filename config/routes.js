@@ -5,6 +5,9 @@ module.exports.routes = {
   '/register': { view: 'register'},
   '/cgu': { view: 'cgu' },
   '/regles': { view: 'regles' },
+   '/newsletter': { view: 'newsletter' },
+   '/staff': { view: 'staff' },
+   '/faq': { view: 'faq' },
 
 
   'get /login': { view: 'user/login' },

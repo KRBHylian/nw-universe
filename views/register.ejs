@@ -1,4 +1,4 @@
-<div id="content"><div id="container"><div class="page-main-container register-main-container">
+<div id="content"><div id="container"><div class="page-main-container">
 
 <!-- RIBBON -->
 <div class="container one">
@@ -29,8 +29,7 @@
       
       <!-- **********************************************FORMULAIRE********************************************* -->
 
-                          
-      <form action="/register" method="post">
+                          <form action="/login" method="post">
             
             <TABLE BORDER=0>
             <TR>
@@ -40,22 +39,15 @@
              </TD>
             </TR>
 
-            <TR>
-             <TD>Âge :</TD>
-             <TD>
-             <INPUT type=text name="age">
-             </TD>
-            </TR>
-
              <TR>
-             <TD>Mail :</TD>
+             <TD><label for="email">Adresse e-mail :</label></TD>
              <TD>
-             <INPUT type=text name="mail">
+             <INPUT type="text" name="email">
              </TD>
             </TR>
 
             <TR>
-            <TD>Mot de Passe : </TD>
+            <TD><label for="password">Mot de Passe : </label></TD>
             <TD>
             <input type="text" onblur="javascript: if(this.value == '') { this.type='text';this.value='Mot de passe' }" onclick="javascript:this.value = '';this.type='password'" id="password" class="password" value="Mot de Passe" name="password" />
             </TD>

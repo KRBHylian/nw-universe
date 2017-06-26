@@ -67,6 +67,12 @@ a{
 	color: #fff;
 	text-decoration: none; !important
 }
+
+
+a.textecorps {
+  color: #1879f2;
+}
+
 .container{
 	position: relative;
 	text-align: center;
