@@ -64,13 +64,13 @@ body{
 	overflow:hidden;
 }
 a{
-	color: #fff;
+	color: #1da1f2;
 	text-decoration: none; !important
 }
 
 
 a.textecorps {
-  color: #1879f2;
+  /*color: #1879f2 !important; */
 }
 
 .container{
